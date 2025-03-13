@@ -1,4 +1,5 @@
 # 安装并导入必要的包
+options("repos" = c(CRAN="https://mirrors.westlake.edu.cn/CRAN/"));options(BioC_mirror="https://mirrors.westlake.edu.cn/bioconductor");
 if (!"Seurat" %in% installed.packages()) {
   install.packages("Seurat")
 }
